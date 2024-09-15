@@ -1,0 +1,15 @@
+{
+  "name": "hackers-chat-room",
+  "version": "1.0.0",
+  "description": "A secure chat room for hackers",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.4.6",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0"
+  }
+}

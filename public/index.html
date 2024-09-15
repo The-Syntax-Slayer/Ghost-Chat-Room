@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBER-GHOST Signup</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/signup.css">
+    <link rel="stylesheet" href="/css/common.css">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div id="content-wrapper">
+        <h1 class="cyber-ghost"><span>CYBER-GHOST</span></h1>
+        <div id="signup-form">
+            <form id="signupForm">
+                <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+                <input type="text" id="username" name="username" placeholder="Enter Username" required>
+                <input type="password" id="password" name="password" placeholder="Enter Password" required>
+                <input type="submit" value="Create Account">
+            </form>
+            <p>Already have an account? <a href="login.html">Login</a></p>
+        </div>
+        <div id="hackerPopup" style="display: none;">
+            <div class="access"></div>
+            <div class="granted"></div>
+        </div>
+    </div>
+    <script src="/js/common.js"></script>
+    <script src="/js/signup.js"></script>
+</body>
+</html>

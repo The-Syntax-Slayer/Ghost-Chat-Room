@@ -1,0 +1,12 @@
+{
+  "Alex": {
+    "name": "Alex",
+    "username": "Alex",
+    "password": "$2b$10$m4lfhMFpocO4wiBnsZViW.qUQOoxAsyjnq7qffblwU94UIBw5XZUi"
+  },
+  "Harry": {
+    "name": "Harry",
+    "username": "Harry",
+    "password": "$2b$10$.S1toxOY8jqrX/I/G1W.lOtxBrRf2LouIcqglMjG3LzkoAoZq4Gb2"
+  }
+}

@@ -1,0 +1,11 @@
+To run the server:
+
+1. Install dependencies:
+   npm install
+
+2. Start the Node.js server:
+   npm start
+
+The server will run on http://localhost:8000 by default.
+
+Make sure you have Node.js installed on your system.
