@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: hackers-chat-room
+    env: node
+    region: ohio
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false
+      - key: SUPABASE_POOLER_URL
+        sync: false 

@@ -1,0 +1,21 @@
+{
+  "name": "hackers-chat-room",
+  "version": "1.0.0",
+  "description": "A secure chat room for hackers",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "echo 'Build completed'",
+    "dev": "node server/server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "axios": "^1.8.3",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cross-fetch": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.17.1",
+    "ws": "^8.18.0"
+  }
+}
